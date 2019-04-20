@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/mysite/static/media/church.8571ad70.png"
   },
   {
-    "revision": "c7656e59a0d43f14cad9",
+    "revision": "938a0976dd322832bbfa",
     "url": "/mysite/static/css/main.989e0fe0.chunk.css"
   },
   {
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/mysite/static/media/Gsen-mockup.360e4273.png"
   },
   {
-    "revision": "c7656e59a0d43f14cad9",
-    "url": "/mysite/static/js/main.5d0d77e7.chunk.js"
+    "revision": "938a0976dd322832bbfa",
+    "url": "/mysite/static/js/main.c095bba2.chunk.js"
   },
   {
     "revision": "74a0a2289c0c1456a40621fc8e9786d0",
@@ -144,15 +144,15 @@ self.__precacheManifest = [
     "url": "/mysite/static/media/SignPainter-HouseScript.90dd7bdd.ttf"
   },
   {
-    "revision": "ee64fb9d3f1ba2333e1b489283925bce",
-    "url": "/mysite/static/media/futura medium bt.ee64fb9d.ttf"
-  },
-  {
     "revision": "b1abb878e2529cb5cb4450139844155d",
     "url": "/mysite/static/media/AvenirLTStd-Black.b1abb878.otf"
   },
   {
-    "revision": "7766ebdfe87a60b8017bbe4968cb5086",
+    "revision": "ee64fb9d3f1ba2333e1b489283925bce",
+    "url": "/mysite/static/media/futura medium bt.ee64fb9d.ttf"
+  },
+  {
+    "revision": "79c934f99c9af4107e876a1d279ef987",
     "url": "/mysite/index.html"
   }
 ];
