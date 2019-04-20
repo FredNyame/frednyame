@@ -1,0 +1,65 @@
+#portfolio{
+  height: unset;
+}
+#portfolio .banner-text{
+  position: unset;
+  top: 0;
+  left: 0;
+  transform: unset;
+  margin-top: 80px;
+}
+#portfolio .btn-wrapper{
+  display: none;
+}
+#portfolio .arrow-down{
+  display: none;
+}
+#portfolio .social-wrapper{
+  display: none;
+}
+/*Container for the banner text*/
+.banner-text{
+  //position: absolute;
+  //top: 160px;
+  //left: 50%;
+  //transform: translateX(-50%);
+  max-width: 850px;
+  width: 100%;
+  text-align: center;
+  margin: 120px auto 0 auto;
+  opacity: 0;
+  transform: scale(0.5);
+}
+/*Styling for main banner heading*/
+.banner-text .banner-header{
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+/*Styling for tagline*/
+.banner-text .tagline{
+  font-family: Futura;
+  font-size: 1.125rem;
+  margin-bottom: 35px;
+}
+.tagline .cta{
+  cursor: pointer;
+  color: #0595FF;
+}
+
+/*animations*/
+.banner-text{
+  animation-name: showUp;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+@keyframes showUp{
+  from{
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to{
+    opacity: 1;
+    transform: scale(1);
+  }
+}

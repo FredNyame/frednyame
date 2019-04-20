@@ -1,6 +1,35 @@
-body {
+:root{
+  --primary-color: #0595FF;
+}
+@font-face{
+  font-family: mySign;
+  src: url(./asserts/fonts/SignPainter-HouseScript.ttf);
+}
+@font-face{
+  font-family: Avenir;
+  src: url(./asserts/fonts/AvenirLTStd-Black.otf);
+  font-weight: 800;
+}
+@font-face{
+  font-family: Futura;
+  src: url(./asserts/fonts/futura\ medium\ bt.ttf);
+}
+
+*{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+html{
+  height: 100vh;
+}
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -11,4 +40,225 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+/*General rules for headers*/
+h1, h2, h3, h4, h5, h6{
+ font-family: Avenir;
+}
+
+/*Main container styling*/
+.container{
+  max-width: 1300px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+/*header styling*/
+.header-wrapper{
+  position: relative;
+}
+
+/*Arrow down styling */
+.arrow-down{
+  /* position: fixed;
+  text-align: center;
+  top: 750px;
+  left: 50%;
+  transform: translateX(-50%); */
+  width: 100%;
+  text-align: center;
+  animation: bounce 1s alternate cubic-bezier(.5,.05,1,.5) infinite;
+}
+
+/*Animation for the arrow down*/
+@keyframes bounce{
+  0%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(20px);
+  }
+}
+
+/*Parent Styling for the section header*/
+.section-header-wrap{
+  width: 100%;
+  margin-bottom: 130px;
+}
+/*H3 styling for the section header*/
+.section-header{
+  position: relative;
+  font-family: Avenir;
+  font-size: 2.815rem;
+}
+.section-header::before{
+  position: absolute;
+  content: '';
+  width: 437px;
+  height: 45px;
+  margin-top: -20px;
+  margin-left: -76px;
+  background-color: var(--primary-color);
+  z-index: -1;
+}
+
+/*Styling for the social links*/
+.social-wrapper{
+  /* position: fixed;
+  top: 750px;
+  left: 50%;
+  transform: translateX(-50%); */
+  width: 100%;
+  text-align: right;
+
+}
+.social-wrapper .social{
+  display: inline-block;
+  width: 38px;
+}
+.social-wrapper .social:not(:last-of-type){
+  margin-right: 22.5px;
+}
+
+/*Hover state for the social links*/
+#github:hover{
+  color: ;
+}
+#insta:hover{
+  color: ;
+}
+#linkendin:hover{
+  color: ;
+}
+#behance:hover{
+  color: ;
+}
+#dribbble:hover{
+  color: ;
+}
+/*Mobile Responsive Styling*/
+@media screen and (max-width: 460px){
+  /*main banner section*/
+  .header-wrapper{
+    height: 100vh;
+  }
+  .banner-text{
+    margin-top: 100px !important;
+  }
+  .banner-header{
+    font-size: 1.8rem !important;
+  }
+  .tagline{
+    line-height: 1.5 !important;
+  }
+  .btn-wrapper{
+    margin-bottom: 120px !important;
+  }
+  .social-wrapper{
+    display: none !important;
+  }
+  .section-header{
+    font-size: 2rem !important;
+  }
+  .section-header::before{
+    margin-top: -29px !important;
+    margin-left: -181px !important;
+  }
+  .latest-posts{
+    flex-direction: column !important;
+    padding: unset !important;
+  }
+  .posts{
+    flex-basis: 100% !important;
+    margin-bottom:70px !important;
+  }
+  .footer-wrap{
+    flex-direction: column !important;
+    align-items: unset !important;
+    justify-content: unset !important;
+  }
+  .let-connect{
+    flex-basis: 100% !important;
+  }
+  .let-p{
+    font-size: 20px !important;
+  }
+  .let-p:before{
+    height: 34px !important;
+    top: -45px !important;
+    left: -31px !important;
+  }
+  .city-love{
+    text-align: center !important;
+    margin: 50px 0 !important;
+    flex-basis: 100% !important;
+  }
+  .footer-wrap .social-wrapper{
+    display: block !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+  /*Menu mobile responsivess*/
+  .menu-contact{
+    flex-basis: 100% !important;
+    align-items: center !important;
+    margin-top: 35px !important;
+    margin-bottom: 20px !important;
+  }
+  .menu-header{
+    font-size: 28px !important;
+    margin-bottom: 10px !important;
+  }
+  .menu-p{
+    font-size: 1rem !important;
+  }
+  .menu-items{
+    flex-basis: 100% !important;
+    font-size: 40px !important;
+    text-align: center !important;
+    margin-bottom: 30px !important;
+  }
+  .menu-items ul li{
+    margin-bottom: 15px !important;
+  }
+  .menu-items ul li a{
+    font-size: 40px !important;
+  }
+  .menu-social-wrapper{
+    text-align: center;
+  }
+  .menu-social-wrapper .social:not(:last-of-type){
+    margin-right: 30px !important;
+  }
+  /*About mobile responsive*/
+  .about-wrapper{
+    flex-direction: column;
+    padding-top: 80px !important;
+  }
+  .about-details{
+    flex-basis: 100% !important;
+    width: 100%;
+  }
+  .about-wrapper .btn-wrapper{
+    text-align: center !important;
+  }
+  .about-profile-pic{
+    flex-basis: 100% !important;
+    width: 100%;
+  }
+  .about-profile-pic img{
+    width: 100% !important;
+  }
+  /*Portfolio mobile responsive*/
+  .showcase-wrapper{
+    padding: unset !important;
+  }
+  .showcase-items{
+    grid-template-columns: repeat(1, 1fr) !important;
+    grid-auto-rows: minmax(250px, auto) !important;
+  }
+  .show-portfolio{
+    height: 250px !important;
+  }
 }

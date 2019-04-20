@@ -1,0 +1,71 @@
+/*main styling for the footer */
+.footer-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 60px;
+  margin-top: 120px;
+}
+.let-connect{
+  flex-grow: 1;
+  flex-basis: calc(33% - 20px);
+}
+.let-p{
+  position: relative;
+  font-family: Avenir;
+  font-size: 37px;
+}
+.let-p a{
+  color: #fff;
+}
+.let-p:before{
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  content: "\f35d";
+  color: #fff;
+  font-weight: 900;
+  width: 100%;
+  padding: 1rem;
+  height: 123px;
+  text-align: right;
+  top: -83px;
+  left: -219px;
+  background-color: #0595FF;
+  z-index: -1;
+}
+.city-love{
+  flex-grow: 1;
+  flex-basis: calc(33% - 20px);
+  text-align: center;
+}
+.footer-wrap .social-wrapper{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  flex-grow: 1;
+  position: static;
+  width: calc(33% - 20px);
+  top: 0px;
+  left: 0px;
+  transform: none;
+  z-index: unset;
+}
+.footer-wrap .social-wrapper .social svg{
+  transition: all 0.5s;
+}
+/*Hover state for the social icons*/
+#github:hover svg{
+  fill: red;
+}
+#insta:hover svg{
+  fill: blue
+}
+#linkendin:hover svg{
+  fill: blue
+}
+#dribbble:hover svg{
+  fill: blue
+}
+#behance:hover svg{
+  fill: blue
+}

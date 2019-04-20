@@ -1,0 +1,75 @@
+/*Main wrapper styling for button*/
+.btn-wrapper{
+  /* position: absolute; */
+  width: 100%;
+  text-align: center;
+  margin-bottom: 150px;
+  opacity: 0;
+    transform: translateY(100px);
+}
+/*Styling for the buttons*/
+.btn{
+  position: relative;
+  font-family: Avenir;
+  display: inline-block;
+  padding: 20px;
+  color: #0595FF;
+  background: transparent;
+  border: 3px solid #0595FF;
+  border-radius: 50px;
+  transition: all 0.4s ease-in-out;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.btn:before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 0%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 0% 10% 10% 0;
+  background-image: linear-gradient(45deg, #0595FF, #0595FF);
+  transition: 0.4s;
+  z-index: -1;
+}
+/* .btn:before{
+  bottom: 0;
+  border-radius: 0% 50% 50% 0;
+} */
+
+/*hover state*/
+.btn:hover{
+  color: #fff;
+  border: 3px solid #FFF;
+}
+.btn:hover:before{
+  height: 180%;
+ }
+
+.btn:focus{
+  outline: none;
+}
+
+/*Animations for the button */
+.btn-wrapper{
+  animation-name: slideUp;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideUp{
+  from{
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

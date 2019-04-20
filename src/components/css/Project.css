@@ -1,0 +1,112 @@
+.single-project .banner-text{
+  margin: 80px auto 40px auto;
+}
+.single-project .link-wrapper a{
+  display: inline-block;
+  font-family: Futura;
+  font-size: 1.125rem;
+  color: #707070;
+}
+.single-project .link-wrapper a:not(:last-of-type){
+  margin-right: 30px;
+}
+.home-page, .mobile-screen-wrapper{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+.home-page img, .mobile-screen-wrapper img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.mobile-screen-wrapper{
+  margin-bottom: 140px;
+}
+
+/*Service don styling*/
+.view-on-service{
+  display: flex;
+  max-width: 900px;
+  width: 100%;
+  justify-content: space-between;
+  margin: 120px auto;
+}
+.service-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: calc(30% - 20px);
+}
+.service-wrap p{
+  line-height: 1.8 !important;
+}
+.service-overview{
+  flex-basis: calc(70% - 20px);
+}
+.view-on-service h4{
+  color: #030303;
+  font-family: Avenir;
+}
+.view-on-service p{
+  color: #707070;
+  font-family: Futura;
+  line-height: 1.5;
+}
+.service-header{
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.project-header{
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+/*Project log styling*/
+.project-logo-wrapper{
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+.project-logo-wrapper img{
+  width: 100%;
+  object-fit: cover;
+}
+
+/*Summary styling*/
+.summary-wrapper, .mobile-info-wrapper{
+  max-width: 640px;
+  width: 100%;
+  text-align: center;
+  margin: 120px auto;
+}
+.summary-wrapper p, .mobile-info-wrapper p{
+  font-family: Futura;
+  color: #707070;
+  line-height: 1.5;
+}
+
+/*FullPage styling*/
+.home-screen-wrapper{
+  max-width: 950px;
+  width: 100%;
+  margin: 0 auto;
+}
+.home-screen-wrapper img{
+  width: 100%;
+  object-fit: cover;
+}
+
+/*Mobile Responsive styling here*/
+@media screen and (max-width: 460px){
+  .view-on-service{
+    flex-direction: column;
+    text-align: center;
+  }
+  .service-wrap{
+    margin-bottom: 50px;
+  }
+  .view-on-service, .summary-wrapper, .mobile-info-wrapper{
+    margin: 80px auto !important;
+  }
+}

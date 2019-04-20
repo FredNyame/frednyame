@@ -1,0 +1,38 @@
+/*Styling for the latest post on the homepage*/
+.latest-post-wrap{
+  margin-bottom: 160px;
+}
+.latest-posts{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.posts{
+  flex-basis: calc(50% - 70px);
+}
+.post-thumbnail{
+
+  height: 247px;
+  background-color: #F5F5F5;
+}
+.post-meta{
+  margin-top: 12px;
+  padding-right: 60px;
+}
+.post-title, .post-date{
+  font-family: Avenir;
+}
+.post-date{
+  font-size: 14px;
+  color: #B9B9B9;
+}
+.post-title{
+  font-size: 1.5rem;
+  margin-top: 12px;
+}
+.post-exempt{
+  font-family: Futura;
+  font-size: 1rem;
+  color: #777777;
+  margin-top: 12px;
+}

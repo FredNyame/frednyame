@@ -1,0 +1,174 @@
+/*Main Nav styling*/
+.main-nav{
+  display: block;
+  height: 80px;
+  position: relative;
+}
+/* Styling for Main wrapper for the Navbar */
+.nav-wrapper{
+  position: fixed;
+  width: 100%;
+  padding: 30px 0px;
+  z-index: 1000;
+}
+/*Styling for Navbar container*/
+.nav-wrapper .container {
+  display: flex;
+  justify-content: space-between;
+}
+/*logo styling */
+.logo{
+  font-family: mySign;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+/*Hover state for logo*/
+.nav-wrapper .container .logo:hover{
+  color: #05C5FF;
+}
+/*styling for the menu icon this is the main div conatiner*/
+.hamburger-icon{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border: 0;
+  outline: 0;
+  user-select: none;
+  cursor: pointer;
+}
+/*General styling rules for each div for the menu lines*/
+.menu-icon{
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin-bottom: 5px;
+  transition: all 0.5s;
+}
+/*Styling for the second line in the menu icon*/
+.hamburger-icon #bar2{
+  width: 18px;
+}
+/*Styling for the third line in the menu icon*/
+.hamburger-icon #bar3{
+  width: 22px;
+}
+/*Hover state for the entire menu icon*/
+.hamburger-icon:hover .menu-icon{
+  background-color: #05C5FF;
+}
+.hamburger-icon:hover #bar2 , .hamburger-icon:hover #bar3{
+  width: 30px;
+}
+
+/*Full menu styling main wrapper*/
+.menu-wrapper{
+  opacity: 0;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  transition: all 0.5s;
+  background-image: linear-gradient(45deg, rgba(5,149,255,1), rgba(29,103,255,1));
+  visibility: hidden;
+}
+.menu-wrapper .container{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.menu-flex-container{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-contact{
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.menu-header, .menu-p, .menu-contact a{
+  font-family: Avenir;
+  color: #fff;
+}
+.menu-header{
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+.menu-p{
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+}
+.menu-contact a{
+  color: #B1D0FF;
+}
+/*Social Links in the menu*/
+.menu-social-wrapper .social{
+ margin-right: 22px;
+}
+.menu-social-wrapper .social svg{
+  fill: #fff;
+}
+/*Menu links styling*/
+.menu-items{
+  flex-basis: 50%;
+  text-align: right;
+}
+.menu-items ul li{
+  margin-bottom: 25px;
+}
+.menu-items ul li a{
+  font-family: Avenir;
+  color: #fff;
+  font-size: 60px;
+}
+.menu-items .active{
+  color:#B1D0FF;
+}
+/*Styling to add from JS file*/
+.show{
+  opacity: 1;
+  z-index: 1;
+  visibility: visible;
+}
+.logo.addColor{
+  color: #fff;
+}
+
+.change .menu-icon{
+  background-color: #fff;
+}
+
+.change #bar1{
+  transform: rotate(-45deg) translate(-4px, 3px) ;
+}
+
+.change #bar2{
+  opacity: 0;
+}
+/*Styling for the third line in the menu icon*/
+.change #bar3{
+  width: 30px;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+/*Animation for the Navbar*/
+.nav-wrapper{
+  animation-name: slideDown;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes slideDown{
+  from{
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

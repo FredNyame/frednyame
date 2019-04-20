@@ -1,0 +1,47 @@
+/*Styling for the main about wrapper*/
+.about-wrapper{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1180px;
+  width: 100%;
+  margin: 0px auto 160px auto;
+  padding-top: 100px;
+}
+.about-details{
+  flex-basis: calc(50% - 20px);
+}
+.about-details h1{
+  font-family: Avenir;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+.about-details p{
+  font-family: Futura;
+  font-size: 1.125rem;
+  color: #333;
+  line-height: 1.8rem;
+  margin-bottom: 20px;
+}
+.about-profile-pic{
+  flex-basis: calc(50% - 20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-wrapper .btn-wrapper{
+  position: unset;
+  top: 0;
+  left: 0;
+  transform: unset;
+  text-align: left;
+}
+.about-wrapper .btn{
+  font-family: Avenir;
+  display: inline-block;
+  padding: 20px 40px;
+  color: #0595FF;
+  background: transparent;
+  border: 3px solid #0595FF;
+  border-radius: 50px;
+}
