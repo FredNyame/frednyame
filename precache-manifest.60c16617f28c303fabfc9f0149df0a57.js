@@ -140,16 +140,16 @@ self.__precacheManifest = [
     "url": "/portfoliosite/static/media/ladcomfullpage.d9895fba.png"
   },
   {
+    "revision": "90dd7bdd7c15769b1a7c7b95229c2e3f",
+    "url": "/portfoliosite/static/media/SignPainter-HouseScript.90dd7bdd.ttf"
+  },
+  {
     "revision": "b1abb878e2529cb5cb4450139844155d",
     "url": "/portfoliosite/static/media/AvenirLTStd-Black.b1abb878.otf"
   },
   {
     "revision": "ee64fb9d3f1ba2333e1b489283925bce",
     "url": "/portfoliosite/static/media/futura medium bt.ee64fb9d.ttf"
-  },
-  {
-    "revision": "90dd7bdd7c15769b1a7c7b95229c2e3f",
-    "url": "/portfoliosite/static/media/SignPainter-HouseScript.90dd7bdd.ttf"
   },
   {
     "revision": "5e4b559f94c8325b647d27e1566f1a80",
