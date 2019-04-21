@@ -144,12 +144,12 @@ self.__precacheManifest = [
     "url": "/static/media/SignPainter-HouseScript.90dd7bdd.ttf"
   },
   {
-    "revision": "ee64fb9d3f1ba2333e1b489283925bce",
-    "url": "/static/media/futura medium bt.ee64fb9d.ttf"
-  },
-  {
     "revision": "b1abb878e2529cb5cb4450139844155d",
     "url": "/static/media/AvenirLTStd-Black.b1abb878.otf"
+  },
+  {
+    "revision": "ee64fb9d3f1ba2333e1b489283925bce",
+    "url": "/static/media/futura medium bt.ee64fb9d.ttf"
   },
   {
     "revision": "914f76e2b3596b271f64ae0dd2883789",
