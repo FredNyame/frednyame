@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfoliosite/static/media/church.8571ad70.png"
   },
   {
-    "revision": "4bddcfb98439b0547206",
+    "revision": "fa0985f1eb7d406fad5e",
     "url": "/portfoliosite/static/css/main.1e238e1b.chunk.css"
   },
   {
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/portfoliosite/static/media/Gsen-mockup.360e4273.png"
   },
   {
-    "revision": "4bddcfb98439b0547206",
-    "url": "/portfoliosite/static/js/main.4a26140f.chunk.js"
+    "revision": "fa0985f1eb7d406fad5e",
+    "url": "/portfoliosite/static/js/main.40654286.chunk.js"
   },
   {
     "revision": "74a0a2289c0c1456a40621fc8e9786d0",
@@ -140,19 +140,19 @@ self.__precacheManifest = [
     "url": "/portfoliosite/static/media/ladcomfullpage.d9895fba.png"
   },
   {
-    "revision": "90dd7bdd7c15769b1a7c7b95229c2e3f",
-    "url": "/portfoliosite/static/media/SignPainter-HouseScript.90dd7bdd.ttf"
-  },
-  {
     "revision": "b1abb878e2529cb5cb4450139844155d",
     "url": "/portfoliosite/static/media/AvenirLTStd-Black.b1abb878.otf"
+  },
+  {
+    "revision": "90dd7bdd7c15769b1a7c7b95229c2e3f",
+    "url": "/portfoliosite/static/media/SignPainter-HouseScript.90dd7bdd.ttf"
   },
   {
     "revision": "ee64fb9d3f1ba2333e1b489283925bce",
     "url": "/portfoliosite/static/media/futura medium bt.ee64fb9d.ttf"
   },
   {
-    "revision": "f537f9da4e626c6bea8963397d24e65e",
+    "revision": "1d27e16651e6fb3112730a9e4ad3705c",
     "url": "/portfoliosite/index.html"
   }
 ];
