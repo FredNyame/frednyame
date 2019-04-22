@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/church.8571ad70.png"
   },
   {
-    "revision": "bd4f66c229b86d21803e",
+    "revision": "e360c25351020db771d0",
     "url": "/static/css/main.4f595cb3.chunk.css"
   },
   {
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/static/media/Gsen-mockup.360e4273.png"
   },
   {
-    "revision": "bd4f66c229b86d21803e",
-    "url": "/static/js/main.bcaaced8.chunk.js"
+    "revision": "e360c25351020db771d0",
+    "url": "/static/js/main.6acb0002.chunk.js"
   },
   {
     "revision": "74a0a2289c0c1456a40621fc8e9786d0",
@@ -140,10 +140,6 @@ self.__precacheManifest = [
     "url": "/static/media/ladcomfullpage.d9895fba.png"
   },
   {
-    "revision": "90dd7bdd7c15769b1a7c7b95229c2e3f",
-    "url": "/static/media/SignPainter-HouseScript.90dd7bdd.ttf"
-  },
-  {
     "revision": "ee64fb9d3f1ba2333e1b489283925bce",
     "url": "/static/media/futura medium bt.ee64fb9d.ttf"
   },
@@ -152,7 +148,11 @@ self.__precacheManifest = [
     "url": "/static/media/AvenirLTStd-Black.b1abb878.otf"
   },
   {
-    "revision": "476fbcd2696ee188d3ad896fb105bc9f",
+    "revision": "90dd7bdd7c15769b1a7c7b95229c2e3f",
+    "url": "/static/media/SignPainter-HouseScript.90dd7bdd.ttf"
+  },
+  {
+    "revision": "fb2997c43b246074456d377a5d42dec7",
     "url": "/index.html"
   }
 ];
