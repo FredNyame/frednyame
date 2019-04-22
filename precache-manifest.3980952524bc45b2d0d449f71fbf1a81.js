@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/church.8571ad70.png"
   },
   {
-    "revision": "e360c25351020db771d0",
+    "revision": "dce88d07c8a4bd3f4f69",
     "url": "/static/css/main.4f595cb3.chunk.css"
   },
   {
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/static/media/Gsen-mockup.360e4273.png"
   },
   {
-    "revision": "e360c25351020db771d0",
-    "url": "/static/js/main.6acb0002.chunk.js"
+    "revision": "dce88d07c8a4bd3f4f69",
+    "url": "/static/js/main.ec536b3e.chunk.js"
   },
   {
     "revision": "74a0a2289c0c1456a40621fc8e9786d0",
@@ -144,15 +144,15 @@ self.__precacheManifest = [
     "url": "/static/media/futura medium bt.ee64fb9d.ttf"
   },
   {
-    "revision": "b1abb878e2529cb5cb4450139844155d",
-    "url": "/static/media/AvenirLTStd-Black.b1abb878.otf"
-  },
-  {
     "revision": "90dd7bdd7c15769b1a7c7b95229c2e3f",
     "url": "/static/media/SignPainter-HouseScript.90dd7bdd.ttf"
   },
   {
-    "revision": "fb2997c43b246074456d377a5d42dec7",
+    "revision": "b1abb878e2529cb5cb4450139844155d",
+    "url": "/static/media/AvenirLTStd-Black.b1abb878.otf"
+  },
+  {
+    "revision": "fe3c7580bdf2ed9fb64f3daff8b13df9",
     "url": "/index.html"
   }
 ];
