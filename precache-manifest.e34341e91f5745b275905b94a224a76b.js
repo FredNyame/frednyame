@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/static/media/church.8571ad70.png"
   },
   {
-    "revision": "9e926608cd0ca1ea0ad4",
-    "url": "/static/css/main.317afef6.chunk.css"
+    "revision": "bd4f66c229b86d21803e",
+    "url": "/static/css/main.4f595cb3.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "3cf68b544d74c139dd94",
-    "url": "/static/js/2.f9e9f58f.chunk.js"
+    "revision": "b9bcee918dc0b2037a3d",
+    "url": "/static/js/2.e526b4c4.chunk.js"
   },
   {
     "revision": "b1c2410fe7e9017e92ded322d0a3517a",
@@ -44,10 +44,6 @@ self.__precacheManifest = [
     "url": "/static/media/behance.0e2c42a3.svg"
   },
   {
-    "revision": "f262e8f8905b3222435f515284bb2999",
-    "url": "/static/media/dribbble.f262e8f8.svg"
-  },
-  {
     "revision": "a0086c79d4a8b53be35704a9154bee83",
     "url": "/static/media/arrow-down.a0086c79.svg"
   },
@@ -68,6 +64,10 @@ self.__precacheManifest = [
     "url": "/static/media/profilepic.7f11593a.png"
   },
   {
+    "revision": "60e29c16005b7177ff1dccba06b55fa8",
+    "url": "/static/media/FredNyameResume.60e29c16.pdf"
+  },
+  {
     "revision": "9ab1b1841eb661af6373825bdd8fa51a",
     "url": "/static/media/shipping.9ab1b184.png"
   },
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/static/media/Gsen-mockup.360e4273.png"
   },
   {
-    "revision": "9e926608cd0ca1ea0ad4",
-    "url": "/static/js/main.d5ed885b.chunk.js"
+    "revision": "bd4f66c229b86d21803e",
+    "url": "/static/js/main.bcaaced8.chunk.js"
   },
   {
     "revision": "74a0a2289c0c1456a40621fc8e9786d0",
@@ -144,15 +144,15 @@ self.__precacheManifest = [
     "url": "/static/media/SignPainter-HouseScript.90dd7bdd.ttf"
   },
   {
-    "revision": "b1abb878e2529cb5cb4450139844155d",
-    "url": "/static/media/AvenirLTStd-Black.b1abb878.otf"
-  },
-  {
     "revision": "ee64fb9d3f1ba2333e1b489283925bce",
     "url": "/static/media/futura medium bt.ee64fb9d.ttf"
   },
   {
-    "revision": "ee0e2730c71ae206cb5d7ecc44f18988",
+    "revision": "b1abb878e2529cb5cb4450139844155d",
+    "url": "/static/media/AvenirLTStd-Black.b1abb878.otf"
+  },
+  {
+    "revision": "476fbcd2696ee188d3ad896fb105bc9f",
     "url": "/index.html"
   }
 ];
